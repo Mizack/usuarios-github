@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #74ADD9;     
+    @import url('http://fonts.cdnfonts.com/css/bluebird');
+    font-family: 'Bluebird', sans-serif;                                          
+}
+body{
+    background: #0D1117;
+}
+#nav_bar{
+    width: 100%;
+    position: fixed ;
+    top: 0;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+    background: #000000ee;
+    
+}
+
+section{
+    margin-top: 80px;
+    position:-ms-page;
+    flex: 1;
+}
+
+#container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    border: 1px solid #30363D;
+    border-radius: 3px;
+}
+
+#divAvatar{
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    display: inline-block;
+    background: #30363D;
+    
+}
+
+#avatar{
+    margin: 20px auto;
+    display: flex;
+    background: #30363D;
+}
+
+#divRestante{
+    width: 80%;
+    margin: 10px;
+}
+
+#avatar img{
+    width: 100px; 
+    margin: auto;
+    border-radius: 50%; 
+}
+
+#login{
+    width: 20%;
+    margin: 0 20px 0 0;
+    display: inline-block;
+
+}
+
+#nome{
+    width: 70%;
+    display: inline-block;
+}
+
+#bio{
+    width: 95%;
+    height: 160px;
+    margin-top: 20px;
+}
+
+#email{
+    width: 95%;
+    height: 70px;
+    margin-top: 20px; 
+}
+
+.teste{
+    padding: 10px;
+    display: block;
+    background: #30363D;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0;
+    align-content: center;
+    display: flexbox;
+    background: black;   
+    text-align: center; 
+    left: 0;
+    bottom: 0;
+}
+#eu{
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    font-size: 25px;
+    text-align: center;
+}
+#cont_link{
+    font-size: 15px;
+}
+#links{
+    display: flex;
+}
+#git{
+    width: 50%;
+    display: flex;
+}
+#git img{
+    width: 60px;
+}
+#lin{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#lin img{
+    width: 60px;
+}
+.alinhar_icone{
+    margin: auto;
+}
+@media (max-width: 575.98px) {
+    #container{
+        display: block;
+    }
+
+    #divAvatar{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        display: block;
+        background: none;
+    }
+
+    #avatar{
+        background: none;
+    }
+    #divRestante{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    #login{
+        width: 300px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    #nome{
+        width: 300px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    #bio{
+        width: 300px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    #email{
+        width: 300px;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    #login{
+        width: 95%;
+        margin: 0 0 20px 0; 
+    }
+    #nome{
+        width: 95%;
+    }
+    #divAvatar{
+        height: 404px;
+    }
+}
